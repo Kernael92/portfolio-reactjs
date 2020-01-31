@@ -95,3 +95,11 @@ export default class About extends React.Component {
         );
     }
 }
+
+About.propTypes = {
+	bounceLeft: PropTypes.string,
+	fadeInLeft: PropTypes.string,
+	fadeInRight: PropTypes.string,
+	fadeIn: PropTypes.string,
+	tada: PropTypes.string
+};
