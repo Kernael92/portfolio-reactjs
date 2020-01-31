@@ -57,7 +57,7 @@ class Contact extends React.Component {
     render() {
         return (
             <>
-                <div className="content ">
+                <div id="my-contact" className="container text-center my-5">
                     <div className="container">
                         <h1>Send A Message</h1>
                         <i></i>
