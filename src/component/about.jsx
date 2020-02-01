@@ -13,8 +13,9 @@ export default class About extends React.Component {
         return (
             <div
                 id="about-container"
-                className="content-containers container text-center mt-5"
+                className="content-containers container  mt-5"
             >
+            <br/><br/><br/><br/>
             <Row>
                 <Col md="6" fadeInRight>
                 <img 
@@ -70,9 +71,30 @@ export default class About extends React.Component {
 
                 
                 </Col>
-                <Col md="6" fadeIn>
+                <Col md="1"></Col>
+                <Col md="5" fadeIn>
                 <h1>About Me</h1>
-                <p>
+                <div>
+                    <p>
+                        Software Engineer who loves to transform ideas into reality using code. 
+                        I am passionate about using Javascript and Animation Libraries to create awesome 
+                        user experiences. 
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        With over two years of experience developing web applications using the latest 
+                        front-end and back-end technologies.
+                    </p>
+                </div>
+                <div>
+                    <p>
+                    Motivated designer and developer with experience creating custom websites 
+                    with ReactJs, JavaScript, HTML5, and CSS3. Strong collaboration skills 
+                    and proven history of application development. 
+                    </p>
+                </div>
+                {/* <p>
                     Software Engineer who loves to transform ideas into reality using code. 
                     I am passionate about using Javascript and Animation Libraries to create awesome 
                     user experiences.
@@ -84,7 +106,7 @@ export default class About extends React.Component {
                     with ReactJs, JavaScript, HTML5, and CSS3. Strong collaboration skills 
                     and proven history of application development.
                 </p>
-                    
+                     */}
                 
                 
                 </Col>
